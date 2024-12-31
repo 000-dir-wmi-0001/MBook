@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Bar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6200EE"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Analytics Dashboard"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <!-- Summary Cards -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <!-- Card 1: Total Users -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#000"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Users"
+                    android:textColor="#FFF"
+                    android:background="@android:color/transparent"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_total_users"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12345"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <!-- Card 2: Daily Active Users -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#000"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Active Users"
+                    android:textColor="#FFF"
+                    android:background="@android:color/transparent"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_daily_active_users"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5000"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+
+            <!-- Card 3: Monthly Active Users -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:background="#000"
+                android:padding="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monthly Active Users"
+                    android:textColor="#FFF"
+                    android:background="@android:color/transparent"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_monthly_active_users"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15000"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Top 5 Most Liked Visited Library -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <!-- Line Chart -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most Liked Library"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/bar_chart_most_liked"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:ignore="MissingClass" />
+
+            <!-- Charts Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <!-- Line Chart -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Users Over Time"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/line_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:ignore="MissingClass" />
+
+                <!-- Bar Chart: Most Liked Library -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Active User"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/line_chart_daily_active_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:ignore="MissingClass" />
+
+                <!-- Pie Chart: User Engagement Breakdown -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Engagement Breakdown"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
+    </style>
+
+    <!-- TextView Style -->
+    <style name="TextViewStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- ImageView Style -->
+    <style name="ImageViewShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- EditText Style -->
+    <style name="EditTextStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/edittext_background</item>
+    </style>
+
+    <!-- TextInputLayout Style -->
+    <style name="TextInputLayoutStyle">
+        <item name="hintTextColor">@color/white</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="boxBackgroundMode">filled</item> <!-- Optional: Specify background mode -->
+    </style>
+
+    <!-- Snackbar Background -->
+    <!-- Use Programmatic Styling as Snackbar does not support 'snackbarBackground' directly -->
+    <style name="SnackbarStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Dialog and AlertDialog Style -->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="ToolbarTheme" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/black</item>
+
+        <item name="android:titleTextStyle">@style/ToolbarTitleText</item>
+    </style>
+
+    <!-- Toolbar Title Text Style -->
+    <style name="ToolbarTitleText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- NavigationView Style -->
+    <style name="NavigationViewTheme">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Fragment Container Style -->
+    <style name="FragmentContainerStyle">
+        <item name="android:background">@color/backgroundColor</item>
+    </style>
+</resources>
+
+
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        <item name="colorPrimary">@color/black</item>-->
+<!--        <item name="colorPrimaryVariant">@color/black</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+<!--        <item name="colorSecondary">@color/black</item>-->
+<!--        <item name="colorSecondaryVariant">@color/black</item>-->
+<!--        <item name="colorOnSecondary">@color/white</item>-->
+<!--        <item name="android:background">@color/backgroundColor</item>-->
+
+
+<!--        <item name="colorPrimaryDark">@android:color/black</item>-->
+<!--        <item name="colorAccent">@android:color/white</item>-->
+<!--        <item name="android:windowBackground">@android:color/black</item>-->
+<!--    </style>-->
+<!--    &lt;!&ndash; Base application theme &ndash;&gt;-->
+<!--&lt;!&ndash;    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">&ndash;&gt;-->
+<!--&lt;!&ndash;        &lt;!&ndash; Customize your theme here &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimaryVariant">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorOnPrimary">@color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorSecondary">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorSecondaryVariant">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorOnSecondary">@color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:background">@color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash; TextView Style &ndash;&gt;-->
+<!--    <style name="TextViewStyle">-->
+<!--        <item name="android:padding">8dp</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+
+<!--    </style>-->
+
+<!--    <style name="ImageViewShapeAppearance">-->
+<!--        <item name="cornerFamily">rounded</item>-->
+<!--        <item name="cornerSize">16dp</item>-->
+<!--    </style>-->
+
+
+<!--&lt;!&ndash;    <style name="ButtonStyle">&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:backgroundTint">@color/buttonColor</item> &lt;!&ndash; Button background color &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:textColor">@android:color/white</item> &lt;!&ndash; White text color &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:padding">16dp</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:textSize">16sp</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:layout_width">wrap_content</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:layout_height">wrap_content</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+<!--    <style name="ButtonStyle">-->
+<!--        <item name="android:background">@drawable/button_background</item> &lt;!&ndash; Use drawable for background &ndash;&gt;-->
+<!--        <item name="android:textColor">@android:color/white</item> &lt;!&ndash; White text color &ndash;&gt;-->
+<!--        <item name="android:padding">16dp</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--    </style>-->
+
+
+
+<!--    &lt;!&ndash; Toolbar style &ndash;&gt;-->
+<!--    <style name="ToolbarTheme" parent="Widget.MaterialComponents.Toolbar.Primary">-->
+<!--        <item name="android:background">@color/black</item>-->
+<!--        <item name="android:titleTextStyle">@style/ToolbarTitleText</item>-->
+<!--    </style>-->
+<!--    <style name="ToolbarText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--    </style>-->
+<!--    &lt;!&ndash; Toolbar title text style &ndash;&gt;-->
+<!--    <style name="ToolbarTitleText">-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:textSize">20sp</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Navigation view style &ndash;&gt;-->
+<!--    <style name="NavigationViewTheme">-->
+<!--        <item name="android:background">@color/black</item>-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--    </style>-->
+
+
+<!--</resources>-->

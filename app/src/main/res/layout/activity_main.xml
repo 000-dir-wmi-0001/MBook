@@ -1,0 +1,125 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:background="@android:color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/logo_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo_desc"
+            android:scaleType="centerCrop"
+            android:background="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:shapeAppearanceOverlay="@style/ImageViewShapeAppearance" />
+
+        <!-- Welcome Message -->
+        <LinearLayout
+            android:id="@+id/welcome_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/logo_image"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/welcome_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to MBook!"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"
+                android:paddingHorizontal="16dp" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your gateway to knowledge."
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="32dp"
+                android:paddingHorizontal="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/welcome_container"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="32dp">
+
+            <Button
+                android:id="@+id/nav_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_marginEnd="16dp"
+                style="@style/ButtonStyle"
+                android:onClick="goToSignup"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/nav_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                style="@style/ButtonStyle"
+                android:onClick="goToLogin"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- Made by Section -->
+        <TextView
+            android:id="@+id/made_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by Momin Mohasin"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/nav_buttons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp" />
+
+        <!-- Version Information -->
+        <TextView
+            android:id="@+id/version_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/made_by"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="4dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

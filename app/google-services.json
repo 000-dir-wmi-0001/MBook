@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "378675658102",
+    "firebase_url": "https://mbook-c421f-default-rtdb.firebaseio.com",
+    "project_id": "mbook-c421f",
+    "storage_bucket": "mbook-c421f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378675658102:android:d0bd521aacaa353e3f0e57",
+        "android_client_info": {
+          "package_name": "com.example.mbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeoA4n-Oi9-ryo884jnMerYbc_jWn8lHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

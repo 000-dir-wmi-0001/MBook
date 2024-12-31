@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home_"
+        android:icon="@drawable/ic_drawer_home"
+        android:title="@string/nav_home"/>
+
+    <item
+        android:id="@+id/nav_content_manage"
+        android:icon="@drawable/ic_content_manage"
+        android:title="@string/nav_content_manage"/>
+
+    <item
+        android:id="@+id/nav_User_manage"
+        android:icon="@drawable/ic_user_manage"
+        android:title="@string/nav_user_manage"/>
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="@string/nav_account"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_drawer_logout"
+        android:title="@string/nav_logout"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_setings"-->
+<!--        android:icon="@drawable/ic_drawer_settings"-->
+<!--        android:title="@string/nav_settings"/>-->
+</menu>
+
+

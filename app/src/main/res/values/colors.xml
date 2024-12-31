@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#B0B0B0</color>
+    <color name="primaryColor">#FF000000</color> <!-- Replace with your desired color -->
+    <color name="search_bar_hint">#808080</color> <!-- Gray color for search bar hint -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#FFFFFFFF</color> <!-- Main layout background -->
+    <color name="formBackgroundColor">#FFFFFF</color> <!-- Form background -->
+
+    <!-- Text Colors -->
+    <color name="primaryTextColor">#FF000000</color> <!-- Black text color -->
+    <color name="secondaryTextColor">#757575</color> <!-- Light grey for hint text -->
+    <color name="language_toggle_text">#000000</color> <!-- Black text for language toggle -->
+    <color name="header_text">#FFFFFF</color> <!-- White text for header -->
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#FF000000</color> <!-- Black button color -->
+    <color name="buttonTextColor">#FFFFFFFF</color> <!-- White button text color -->
+    <color name="cta_button_background">#4CAF50</color> <!-- Call-to-action button background -->
+    <color name="cta_button_text">#FFFFFF</color> <!-- Call-to-action button text -->
+
+    <!-- Navigation Colors -->
+    <color name="bottom_nav_background">#000000</color> <!-- Black background for bottom navigation -->
+    <color name="bottom_nav_item_color">#FFFFFF</color> <!-- White color for bottom nav items -->
+
+    <!-- Progress Indicator Colors -->
+    <color name="progress_indicator_color">#CCCCCC</color> <!-- Light gray for progress indicator -->
+    <color name="progress_track_color">#00000000</color> <!-- Transparent progress track -->
+
+    <!-- Card Colors -->
+    <color name="card_background_color">#F5F5F5</color> <!-- Light gray for card backgrounds -->
+
+    <!-- Material Design Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Primary color -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker shade of primary color -->
+    <color name="colorAccent">#03DAC5</color> <!-- Accent color -->
+
+
+    <color name="borderColor">#000000</color>
+
+
+    <!-- Miscellaneous -->
+    <color name="colorBorder">#000000</color> <!-- Border color -->
+    <color name="colorPressed">#E0E0E0</color> <!-- Light gray for pressed state -->
+    <color name="colorFocused">#B0B0B0</color> <!-- Medium gray for focused state -->
+    <color name="colorDefault">#FFFFFF</color> <!-- Default white background -->
+    <color name="gray">#808080</color> <!-- Standard gray color -->
+
+
+    <color name="hintColor">#888888</color>
+
+    <color name="buttonDisabledColor">#BDBDBD</color> <!-- Change as needed -->
+
+<color name="dark_gray">#1C1C1C</color>
+
+
+
+    <color name="your_indicator_color">#000000</color> <!-- Black for progress indicator -->
+    <color name="your_track_color">#E0E0E0</color> <!-- Light gray for track -->
+    <color name="placeholder_image">#F0F0F0</color> <!-- Light gray for placeholder -->
+    <color name="error_image">#FF0000</color> <!-- Red for error state -->
+
+    <color name="blue">#6200EE</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="magenta">#FF00FF</color>
+</resources>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+
+<!--    <color name="colorPressed">#E0E0E0</color> &lt;!&ndash; Light gray for pressed state &ndash;&gt;-->
+<!--    <color name="colorFocused">#B0B0B0</color> &lt;!&ndash; Medium gray for focused state &ndash;&gt;-->
+<!--    <color name="colorDefault">#FFFFFF</color> &lt;!&ndash; White background for default state &ndash;&gt;-->
+<!--    <color name="colorBorder">#000000</color> &lt;!&ndash; Black border &ndash;&gt;-->
+
+
+<!--    <color name="gray_light">#E0E0E0</color> &lt;!&ndash; Light gray for pressed/focused states &ndash;&gt;-->
+<!--    <color name="gray_dark">#B0B0B0</color>  &lt;!&ndash; Dark gray for default states &ndash;&gt;-->
+<!--    <color name="borderColor">#000000</color>-->
+<!--    <color name="formBackgroundColor">#FFFFFF</color> &lt;!&ndash; White background for forms &ndash;&gt;-->
+
+
+<!--    <color name="backgroundColor">#FFFFFFFF</color> &lt;!&ndash; White background for the main layout &ndash;&gt;-->
+<!--    <color name="primaryTextColor">#FF000000</color> &lt;!&ndash; Black text color &ndash;&gt;-->
+<!--    <color name="buttonColor">#FF000000</color> &lt;!&ndash; Black button color &ndash;&gt;-->
+<!--    <color name="buttonTextColor">#FFFFFFFF</color> &lt;!&ndash; White button text color &ndash;&gt;-->
+<!--    <color name="primaryColor">#FF000000</color>-->
+
+
+<!--    <color name="background">#FFFFFF</color>-->
+
+<!--    <color name="cta_button_background">#4CAF50</color>-->
+<!--    <color name="cta_button_text">#FFFFFF</color>-->
+
+
+<!--    <color name="search_bar_hint">#808080</color> &lt;!&ndash; Gray &ndash;&gt;-->
+<!--    <color name="language_toggle_text">#000000</color> &lt;!&ndash; Black &ndash;&gt;-->
+
+
+<!--    <color name="header_background">#000000</color> &lt;!&ndash; Black &ndash;&gt;-->
+<!--    <color name="header_text">#FFFFFF</color> &lt;!&ndash; White &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Hero Section &ndash;&gt;-->
+<!--    <color name="hero_text">#000000</color>-->
+<!--    &lt;!&ndash; Bottom Navigation &ndash;&gt;-->
+
+
+
+<!--    <color name="bottom_nav_background">#000000</color> &lt;!&ndash; Black &ndash;&gt;-->
+<!--    <color name="bottom_nav_item_color">#FFFFFF</color> &lt;!&ndash; White &ndash;&gt;-->
+
+<!--    <color name="progress_indicator_color">#CCCCCC</color> &lt;!&ndash; Light gray color for the progress indicator &ndash;&gt;-->
+<!--    <color name="progress_track_color">#00000000</color>-->
+
+<!--    <color name="background_color">#FFFFFF</color> &lt;!&ndash; White background &ndash;&gt;-->
+<!--    <color name="primary_color">#000000</color> &lt;!&ndash; Black for borders and text &ndash;&gt;-->
+<!--    <color name="primary_text_color">#000000</color> &lt;!&ndash; Black text color &ndash;&gt;-->
+<!--    <color name="secondary_text_color">#757575</color> &lt;!&ndash; Light grey for hint text &ndash;&gt;-->
+<!--    <color name="card_background_color">#F5F5F5</color>-->
+
+<!--    <color name="colorPrimary">#6200EE</color> &lt;!&ndash; Replace with your desired color code &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Accent color for buttons &ndash;&gt;-->
+<!--    <color name="colorAccent">#03DAC5</color> &lt;!&ndash; Replace with your desired color code &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Darker color for bookmark button &ndash;&gt;-->
+<!--    <color name="colorPrimaryDark">#3700B3</color> &lt;!&ndash; Replace with your desired color code &ndash;&gt;-->
+<!--    <color name="gray">#808080</color> &lt;!&ndash; This is a standard gray color &ndash;&gt;-->
+
+
+
+<!--</resources>-->

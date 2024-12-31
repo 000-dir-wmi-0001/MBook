@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Add_Contents_Fragment">
+
+    <!-- ScrollView to enable scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main content layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="16dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6200EE"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Library"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:background="@android:color/transparent"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Add Library"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginBottom="16dp" />-->
+
+            <EditText
+                android:id="@+id/library_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Library Name"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/category_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category Type"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/library_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Library Thumbnail" />
+
+            <Button
+                android:id="@+id/select_thumbnail_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Thumbnail"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/create_library_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Library"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/navigate_to_add_episodes_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to Add Episodes" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/blur_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

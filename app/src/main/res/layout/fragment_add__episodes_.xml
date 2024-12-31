@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Add_Episodes_Fragment">
+
+    <!-- Main content layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6200EE"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Episode"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Add Episode"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            />-->
+
+        <Spinner
+            android:id="@+id/library_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Episode Title"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/select_audio_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Audio File"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/select_document_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Document File"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/add_episode_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Episode" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/blur_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

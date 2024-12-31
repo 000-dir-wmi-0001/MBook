@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6200EE"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Library"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/library_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/library_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/update_thumbnail_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Thumbnail"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_library_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Library Name"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edit_category_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Type"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/save_changes_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/edit_library_contents_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Library Contents"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:enabled="false"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Menu"/>
+<!--        android:titleTextColor="@color/bottom_nav_background" />-->
+
+    <item
+        android:id="@+id/nav_all"
+        android:icon="@drawable/all_audio"
+    android:title="All"/>
+<!--    android:titleTextColor="@color/bottom_nav_background" />/-->
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/search_b"
+        android:title="All"/>
+<!--        android:titleTextColor="@color/bottom_nav_background" />-->
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/bookmark"
+    android:title="Library"/>
+<!--    android:titleTextColor="@color/bottom_nav_background" />-->
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/account"
+    android:title="Profile"/>
+<!--    android:titleTextColor="@color/bottom_nav_background" />-->
+</menu>

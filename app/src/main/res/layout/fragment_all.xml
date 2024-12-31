@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".fragments.AllFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title Text -->
+
+
+        <!-- Search View -->
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:text="All Libraries"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search..."
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_margin="16dp"
+            android:background="@android:color/white"/>
+
+        <!-- Image Slider -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/backgroundColor">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/auto_image_changer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:padding="4dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Library List -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never" />
+
+        <!-- Empty State Placeholder -->
+        <TextView
+            android:id="@+id/empty_state_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No libraries available"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:visibility="gone"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

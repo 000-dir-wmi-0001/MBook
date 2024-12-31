@@ -1,0 +1,104 @@
+<resources>
+    <!-- Web Client ID for OAuth or related authentication -->
+    <string name="default_web_client_id">AIzaSyDwaB8ry-_6I6ogG98486tLsSGwaC3qHRA</string>
+
+    <!-- App Name -->
+    <string name="app_name">Mbook</string>
+
+    <!-- Descriptions for Buttons and Logos -->
+    <string name="logo_desc">MBook logo, your gateway to audiobooks and podcasts with transcripts.</string>
+    <string name="signup_button_desc">Button to sign up for a new account on MBook.</string>
+    <string name="login_button_desc">Button to log in to your MBook account.</string>
+    <string name="welcome_message_desc">Welcome message on the MBook landing page.</string>
+
+    <!-- Hero Section -->
+    <string name="hero_title">Welcome to MBook</string>
+    <string name="hero_description">Discover a world of audiobooks and podcasts.</string>
+    <string name="cta_button_text">Get Started</string>
+
+    <!-- Image and Thumbnail Descriptions -->
+    <string name="library_thumbnail">Library Thumbnail</string>
+    <string name="episode_thumbnail">Episode Thumbnail</string>
+    <string name="thumbnail_desc">Description for thumbnail images.</string>
+    <string name="library_thumbnail_description">Description of the library thumbnail item.</string>
+    <string name="episode_thumbnail_description">Description of the episode thumbnail item.</string>
+
+    <!-- Navigation Menu Items -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_home">My Account</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_add_contents">Add Contents</string>
+    <string name="nav_update_contents">Update Contents</string>
+    <string name="nav_content_manage">Manage Content</string>
+    <string name="nav_user_manage">Manage Users</string>
+    <string name="nav_account">My Account</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Status Messages -->
+    <string name="settings_clicked">Settings clicked.</string>
+    <string name="logged_out_successfully">Logged out successfully.</string>
+    <string name="hello_blank_fragment">This Analytics Fragment</string>
+
+
+
+    <string name="nav_enable_notifications">Enable Notifications</string>
+    <string name="nav_quit_app">Quit the App</string>
+    <string name="confirm_logout_title">Confirm Logout</string>
+    <string name="confirm_logout_message">Are you sure you want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="header_image_desc">App Logo</string>
+
+
+
+</resources>
+
+
+    <!--<resources>-->
+    <!--    &lt;!&ndash; Add your Web Client ID here &ndash;&gt;-->
+    <!--    <string name="default_web_client_id">AIzaSyDwaB8ry-_6I6ogG98486tLsSGwaC3qHRA</string>-->
+
+
+    <!--    <string name="app_name">Mbook</string>-->
+    <!--    <string name="logo_desc">MBook logo, your gateway to audiobooks and podcasts with transcripts</string>-->
+    <!--    <string name="signup_button_desc">Button to sign up for a new account on MBook</string>-->
+    <!--    <string name="login_button_desc">Button to log in to your MBook account</string>-->
+    <!--    <string name="welcome_message_desc">Welcome message on the MBook landing page</string>-->
+
+
+    <!--    <string name="hero_title">Welcome to My App</string>-->
+    <!--    <string name="hero_description">This is a sample app.</string>-->
+    <!--    <string name="cta_button_text">Get Started</string>-->
+    <!--    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+
+
+    <!--    <string name="library_thumbnail">Library Thumbnail</string>-->
+    <!--    <string name="episode_thumbnail">Episode Thumbnail</string>-->
+
+
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="thumbnail_desc">this is numbnail</string>-->
+    <!--    <string name="library_thumbnail_description">this is item_library descriptions of thumbnail</string>-->
+    <!--    <string name="episode_thumbnail_description">This is episode thumbnail descriptions.</string>-->
+
+
+    <!--    <string name="nav_open">Open</string>-->
+    <!--    <string name="nav_close">Close</string>-->
+
+
+    <!--    <string name="nav_home">My Account</string>-->
+    <!--    <string name="nav_analytics">Analytics</string>-->
+    <!--    <string name="nav_add_contents">Add Contents</string>-->
+    <!--    <string name="nav_update_contents">Update Contents</string>-->
+    <!--    <string name="nav_content_manage">Manage Content</string>-->
+    <!--    <string name="nav_user_manage">Manage Users</string>-->
+    <!--    <string name="nav_account">My Account</string>-->
+    <!--    <string name="nav_logout">Logout</string>-->
+    <!--    <string name="nav_settings">Settings</string>-->
+    <!--    <string name="settings_clicked">Settings clicked</string>-->
+    <!--    <string name="logged_out_successfully">Logged out successfully</string>-->
+
+    <!--</resources>-->

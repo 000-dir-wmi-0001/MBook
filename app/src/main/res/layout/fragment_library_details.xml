@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.LibraryDetailsFragment">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_arrow_back"
+        android:background="?attr/selectableItemBackground" />
+
+    <!-- Library Thumbnail -->
+    <ImageView
+        android:id="@+id/library_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <!-- Library Name -->
+    <TextView
+        android:id="@+id/library_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:text="Library Name" />
+
+    <!-- Library Category -->
+
+
+    <!-- Likes and Dislikes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="Likes: 0"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/library_category_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="Library Category" />
+    </LinearLayout>
+
+    <!-- Like, Dislike, and Bookmark Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/like_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart_border"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginStart="32dp" />
+
+        <ImageButton
+            android:id="@+id/bookmark_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:src="@drawable/ic_bookmark"
+            android:background="?attr/selectableItemBackground" />
+
+
+
+
+    </LinearLayout>
+
+    <!-- RecyclerView for Episodes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_episodes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        tools:listitem="@layout/item_episode" />
+</LinearLayout>
