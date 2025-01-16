@@ -40,7 +40,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mBook.git
+git clone https://github.com/000-dir-wmi-0001/Mbook.git
 ```
 
 2. Open the project in Android Studio:
